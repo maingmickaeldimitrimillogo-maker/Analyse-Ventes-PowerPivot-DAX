@@ -1,19 +1,19 @@
-# 📊 Analyse des Ventes Mondiales et Performance Commerciale (Power Pivot & DAX)
+# 📊 Analyse des Ventes et Performance Commerciale (Power Pivot & Modélisation en Étoile)
 
 ## 📌 Présentation du Projet
-Ce projet consiste en une analyse décisionnelle (Business Intelligence) des ventes globales d'une entreprise multi-marques. À partir d'un modèle de données relationnel structuré dans *Power Pivot*, ce tableau de bord interactif permet d'évaluer la rentabilité globale, la performance par catégorie de produits, par marque et par zone géographique.
+Ce projet de Business Intelligence met en œuvre une analyse approfondie des ventes mondiales et des performances commerciales. Il repose sur un modèle de données relationnel structuré (schéma en étoile) intégrant des tables de dimensions multiples pour croiser les clients, les produits, les magasins et les taux de change avec les données de transactions.
 
-## 💡 Key Performance Indicators (KPIs) & Mesures DAX
-Le projet intègre des mesures calculées dynamiques rédigées en *DAX (Data Analysis Expressions)* :
-- *Total Sales* : Chiffre d'affaires global généré.
-- *Total Cost* : Coût total des produits vendus (COGS).
-- *Total Profit* : Marge brute réalisée ($Total\ Sales - Total\ Cost$).
-
-## 🛠️ Fonctionnalités & Modélisation
-- *Modèle de données Power Pivot* : Relation entre tables de faits (ventes) et tables de dimensions (produits, clients, zones géographiques, marques).
-- *Analyse Multidimensionnelle* : Segmentations dynamiques (Slicers) interactives par *Pays* (Australia, Canada, France, Germany, Italy, Netherlands...) et par *Marque* (Adventure Works, Contoso, Fabrikam, Litware...).
-- *Visualisation de données* : Tableau croisé dynamique et histogrammes comparatifs pour suivre la répartition du CA et du profit par catégorie (Audio, Computers, Cell phones, TV & Video, Home Appliances...).
+## 🛠️ Outils & Modélisation
+- *Microsoft Excel & Power Pivot* : Importation, gestion des relations et modélisation avancée de bases de données relationnelles.
+- *DAX (Data Analysis Expressions)* : Conception de mesures analytiques dynamiques (Total Sales, Total Cost, Total Profit).
+- *Analyse Multidimensionnelle* : Tableaux croisés dynamiques, graphiques combinés et filtres interactifs (Slicers) par zone géographique et par marque.
 
 ## 📂 Contenu du Dépôt
-- Projet_Vente.xlsx : Classeur Excel incluant le modèle Power Pivot, les mesures DAX et le tableau de bord interactif.
+- Projet_Vente.xlsx : Fichier principal contenant le tableau de bord interactif et les mesures DAX.
+- Customers.XLS : Table des dimensions clients.
+- Products.XLS : Table des dimensions produits et catégories.
+- Stores.XLS : Données relatives aux points de vente.
+- Sales.XLS : Table de faits des transactions commerciales.
+- Exchange_Rates.XLS : Table des taux de change.
+- Data_Dictionary.XLS : Dictionnaire décrivant les variables du modèle.
 
